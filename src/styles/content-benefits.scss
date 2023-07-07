@@ -1,4 +1,8 @@
 .content-benefits {
+  width: 276px;
+  @media (max-width: 768px) {
+    width: 340px;
+  }
   &__icon {
     margin-top: 25px;
     width: 50px;
@@ -21,5 +25,8 @@
     font-size: 14px;
     line-height: 21px;
     color: rgba(124, 124, 124, 1);
+    @media (max-width: 768px) {
+      width: 340px;
+    }
   }
 }

@@ -10,7 +10,7 @@ toggler.addEventListener('click', () => {
 
 navMenuList.forEach(link => {
   link.addEventListener('click', () => {
-    menu.classList.toggle('nav-buttom--laptop');
+    menu.classList.remove('nav-buttom--laptop');
   });
 });
 
